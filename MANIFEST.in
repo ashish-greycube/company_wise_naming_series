@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include company_wise_naming_series *.css
+recursive-include company_wise_naming_series *.csv
+recursive-include company_wise_naming_series *.html
+recursive-include company_wise_naming_series *.ico
+recursive-include company_wise_naming_series *.js
+recursive-include company_wise_naming_series *.json
+recursive-include company_wise_naming_series *.md
+recursive-include company_wise_naming_series *.png
+recursive-include company_wise_naming_series *.py
+recursive-include company_wise_naming_series *.svg
+recursive-include company_wise_naming_series *.txt
+recursive-exclude company_wise_naming_series *.pyc
